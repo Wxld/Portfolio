@@ -1,0 +1,31 @@
+.work{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.work-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-list p{
+    font-size: 20px;
+}
+.work-photo{
+    max-width: 40%;
+}
+.work-imp{
+    font-weight: 600;
+}
+
+@media only screen and (max-width:720px) {
+    .work-list{
+        flex-direction: column;
+    }
+    .work-photo{
+        max-width: 60%;
+    }
+    .work-list p{
+        padding: 6px 0px;
+    }
+}
