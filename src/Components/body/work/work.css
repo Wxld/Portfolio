@@ -17,7 +17,9 @@
 .work-imp{
     font-weight: 600;
 }
-
+#work-title{
+    color: blueviolet;
+}
 @media only screen and (max-width:720px) {
     .work-list{
         flex-direction: column;

@@ -35,3 +35,6 @@
     color: black;
     display: flex;
 }
+.mobile-option:nth-child(3) a{
+    color: blueviolet;
+}

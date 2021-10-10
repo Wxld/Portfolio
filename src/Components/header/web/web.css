@@ -22,3 +22,6 @@
 .web-option:last-child{
     margin-right: 0px;
 }
+.web-option:nth-child(3) a{
+    color: blueviolet;
+}
