@@ -1,0 +1,41 @@
+.work-card{
+    width: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 16px;
+}
+.work-logo{
+    height: 160px;
+}
+.work-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.work-dates{
+    color: gray;
+}
+.work-desc{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.work-desc p{
+    font-size: 16px;
+}
+.work-position{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media only screen and (max-width:720px)
+{
+    .work-card{
+        width: 100%;
+    }
+}
